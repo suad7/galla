@@ -14,4 +14,8 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
           $ git clone
           $ cd suad'sgallery
 
-2. Creating the virtual environment:         
+2. Creating the virtual environment:  
+
+          $ python3.6 -m venv virtual
+          $ source virtual/bin/env
+          $ curl https://bootstrap.pypa.io/get-pip.py |python
