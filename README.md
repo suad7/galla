@@ -37,3 +37,6 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 - Ensure you have python3.6 installed in your computer.       
 - From the terminal navigate to the cloned project folder.
 ### TECHNOLOGIES USED
+* Django
+* Python3.6
+* Bootstrap3
