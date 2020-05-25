@@ -40,3 +40,4 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 * Django
 * Python3.6
 * Bootstrap3
+* SQLAlchemy
