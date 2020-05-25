@@ -41,3 +41,4 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 * Python3.6
 * Bootstrap3
 * SQLAlchemy
+### DEPLOYING (LIVE LINK)
