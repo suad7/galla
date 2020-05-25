@@ -13,3 +13,5 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 
           $ git clone
           $ cd suad'sgallery
+
+2. Creating the virtual environment:         
