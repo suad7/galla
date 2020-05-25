@@ -42,3 +42,5 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 * Bootstrap3
 * SQLAlchemy
 ### DEPLOYING (LIVE LINK)
+
+### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
