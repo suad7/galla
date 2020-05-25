@@ -19,4 +19,6 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
           $ python3.6 -m venv virtual
           $ source virtual/bin/env
           $ curl https://bootstrap.pypa.io/get-pip.py |python
-3. Installing Django and other Modules: 
+3. Installing Django and other Modules:
+
+         $ python3.6 -m pip install -r requirements.txt
