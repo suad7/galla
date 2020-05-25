@@ -22,8 +22,9 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 3. Installing Django and other Modules:
 
          $ python3.6 -m pip install -r requirements.txt
-         
+
 4. Run the application:
 
           $ python3 manage.py runserver
 
+### TESTING THE APPLICATION
