@@ -44,3 +44,10 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 ### DEPLOYING (LIVE LINK)
 
 ### BEHAVIOR DRIVEN DEVELOPMENT (SPECIFICATIONS)
+| Behaviour |  Input | Output |
+| :---------------- | :---------------: | :------------------ |
+| Display Photos | On page load | List of various photos  |
+| Display Photos Details | On click photo | List of photos details 
+| Display photos with title| search for:food,yoga & clothing |  list of images with description & posted time display.
+| Display photos Details | On click image |image category,description & location display
+| Navigate back to home page | On click navbar-brand suad's gallery| Display list of photos.   |                       |   
