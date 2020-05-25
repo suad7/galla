@@ -54,3 +54,4 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 
 ### CONTACT
 sm.ha21@hotmail.com
+### LICENSE 
