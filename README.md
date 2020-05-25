@@ -28,3 +28,6 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
           $ python3 manage.py runserver
 
 ### TESTING THE APPLICATION
+1. To run the tests for the class files:
+
+          $ python3.6 manage.py test 
