@@ -31,3 +31,5 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 1. To run the tests for the class files:
 
           $ python3.6 manage.py test 
+
+### PROJECT SETUP INSTRUCTION          
