@@ -1,0 +1,49 @@
+{%extends 'all-news/base.html'%}
+{% block content %}
+{{block.super}}
+<div class="container">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <div class="d-flex flex-wrap">
+    {% for news_item in news %}
+
+    <div class="row">
+      <!--Display news Article images  -->
+      <div class="col-xs-6 col-sm-6 col-md-3 col-lg-6 d-flex">
+        <img src="{{news_item.article_image.url}}" class="img-fluid" style="width: 500px;" alt="Image"
+          data-toggle="modal" data-target="#exampleModal{{news_item.id}}">
+      </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal{{news_item.id}}" tabindex="-1" role="dialog"
+      aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel"></h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="{{news_item.article_image.url}}" class="img-fluid" alt="">
+            <p>{{news_item.title}}</p>
+            <p>{{news_item.post}}</p>
+            <p>{{news_item.location}}</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Copy link</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    {% empty %}
+    <div class="row">
+      <h2 class="text-center">There No News Items</h2>
+    </div>
+    {% endfor %}
+  </div>
+
+</div>
+{% endblock %}
