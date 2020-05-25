@@ -32,4 +32,6 @@ A computer running on either Windows, MacOS or Ubuntu operating you can do the f
 
           $ python3.6 manage.py test 
 
-### PROJECT SETUP INSTRUCTION          
+### PROJECT SETUP INSTRUCTION   
+- Clone this repository to your local computer.
+- Ensure you have python3.6 installed in your computer.       
